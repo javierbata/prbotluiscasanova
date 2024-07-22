@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('partials/header') %>
+    <title>Document</title>
+</head>
+
+<body>
+
+  <%- include('partials/navigation') %>
+
+    <div class="container p-4">
+
+      <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" id="file"> <br/>
+        <input type="submit" value="Upload file">
+
+        <img id="imagen" src="/show-image" alt="Imagen desde Blob Storage">
+
+      </form>
+      <div class="row">
+
+        <%if (books.length> 0) {%>
+
+          <% books.forEach(function(book) { %>
+            <div class="col-md-4">
+              <div class="card bg-dark">
+                <div class="card-header text-white d-flex justify-content-between align-items-center">
+                  <%= book.title %>
+                    <a href="/delete/<%= book.id %>" class="btn btn-danger btn-sm">
+                      eliminar
+                    </a>
+                </div>
+                <img class="card-img-top" src="<%= book.image %>">
+                <div class="card-body text-light">
+                  <%= book.description %>
+                </div>
+              </div>
+            </div>
+            <%})%>
+
+              <%} else {%>
+                <div class="card card-body text-center">
+                  <p>No Books yet. <a href="/new-entry">añadir nuevo numero</a></p>
+                </div>
+                <%}%>
+      </div>
+    </div>
+
+</body>
+
+</html>

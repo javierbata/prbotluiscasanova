@@ -1,0 +1,47 @@
+{   
+    "codes":{
+
+        "A" : {
+            "sourceCurrencyCode":"SOL",
+            "targetCurrencyCode":"VES"
+        },
+        "B" : {
+            "sourceCurrencyCode":"USD_PE",
+            "targetCurrencyCode":"VES"
+        },
+        "C" : {
+            "sourceCurrencyCode":"USD_PAR",
+            "targetCurrencyCode":"VES"
+        },
+        "D" : {
+            "sourceCurrencyCode":"USD_ZEL",
+            "targetCurrencyCode":"VES"
+        },
+        "E" : {
+            "sourceCurrencyCode":"COL",
+            "targetCurrencyCode":"VES"
+        },
+
+        "F" : {
+            "sourceCurrencyCode":"USD_ZEL",
+            "targetCurrencyCode":"COL"
+        },
+        "G" : {
+            "sourceCurrencyCode":"SOL",
+            "targetCurrencyCode":"COL"
+        },
+        "H" : {
+            "sourceCurrencyCode":"USD_ZEL",
+            "targetCurrencyCode":"SOL"
+        },
+        "I" : {
+            "sourceCurrencyCode":"USD_PE",
+            "targetCurrencyCode":"SOL"
+        },
+        "J" : {
+            "sourceCurrencyCode":"USD_ZEL",
+            "targetCurrencyCode":"USD_PE"
+        }
+    }
+    
+}
