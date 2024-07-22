@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
   libexpat1 \
   libfontconfig1 \
   libglib2.0-0 \
+  libgobject-2.0-0 \
   libgbm1 \
   libgtk-3-0 \
   libnspr4 \
