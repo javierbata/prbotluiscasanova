@@ -16,7 +16,7 @@ export default {
   },
 
   
-  BACKENDNUBE:  "https://api-remesas-lc.azurewebsites.net",
+  BACKENDNUBE:  "https://pruebabotluisdocker-hxdzgcgheygfeyfy.eastus-01.azurewebsites.net",
   BACKENDLOCAL: "http://localhost:5000"
 
 };
